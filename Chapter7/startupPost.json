@@ -23,7 +23,10 @@
       }
     },
     "response": {
-      "text": "魏无羡带着思追来了"
+      "text": "魏无羡带着思追来了",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
     }
 
   }
