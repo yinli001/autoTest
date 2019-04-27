@@ -11,5 +11,23 @@
         "Content-Type":"text/html;charset=gbk"
       }
     }
+  },
+  {
+    "description": "这是一个带参数的get",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get",
+      "queries": {
+        "name": "魏无羡",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "蓝忘机我来了",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+
   }
 ]
