@@ -5,7 +5,7 @@
       "uri": "/get/with/cookies",
       "method": "get",
       "cookies": {
-        "login": "true"
+        "aa": "true"
       }
 
     },
@@ -13,6 +13,27 @@
       "text": "这是一个要携带cookies信息才能访问的get请求",
       "headers":{
         "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的post",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "魏无羡",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "魏无羡": "success",
+        "status": "1"
       }
     }
   }
