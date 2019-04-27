@@ -34,6 +34,9 @@
       "json": {
         "魏无羡": "success",
         "status": "1"
+      },
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
       }
     }
   }
