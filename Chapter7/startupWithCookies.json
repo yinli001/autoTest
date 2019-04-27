@@ -19,7 +19,7 @@
   {
     "description": "这是一个带cookies信息的post",
     "request": {
-      "uri": "/get/with/cookies",
+      "uri": "/post/with/cookies",
       "method": "post",
       "cookies": {
         "login": "true"
