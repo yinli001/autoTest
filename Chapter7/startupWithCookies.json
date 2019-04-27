@@ -25,14 +25,14 @@
         "login": "true"
       },
       "json": {
-        "name": "魏无羡",
+        "name": "weiYing",
         "age": "18"
       }
     },
     "response": {
       "status": 200,
       "json": {
-        "魏无羡": "success",
+        "weiYing": "success",
         "status": "1"
       },
       "headers":{
