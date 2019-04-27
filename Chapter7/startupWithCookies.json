@@ -34,9 +34,6 @@
       "json": {
         "weiYing": "success",
         "status": "1"
-      },
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
       }
     }
   }
