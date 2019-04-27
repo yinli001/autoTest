@@ -5,15 +5,26 @@
       "uri": "/postdemo",
       "method": "post"
     },
-
     "response": {
       "text": "这是我的第一个mock的post请求",
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       }
     }
-
+  },
+  {
+    "description": "这是一个带参数的post请求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "魏无羡",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "魏无羡带着思追来了"
+    }
 
   }
-
 ]
